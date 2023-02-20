@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.footer {
+
+    
+    background-color:aqua ;
+    color:black;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100% ;
+    
+    padding:0px;
+    border:1px black; 
+
+    
+}
+.footer .container{
+    
+    width: 100%;
+        display: flex ;
+        
+        gap: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+        
+
+        
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.about_footer p{
+    font-size: 12px;
+    width: 170px;
+    height: 90px;
+    
+
+}
+.about_footer{
+    height: 90px;
+    width: 170px;
+}
+
+.fa-facebook-f:hover{
+    
+
+    opacity: 0.7;
+    color: blue;
+}
+
+
+.fa-instagram:hover{
+    opacity: 0.7;
+    color:rgb(241, 30, 30);
+} 
+.fa-twitter:hover{
+    opacity: 0.7;
+    color:rgb(16, 149, 252);
+} 
+.fa-whatsapp:hover{
+    opacity: 0.7;
+    color:rgba(68, 188, 8, 0.995);
+}
+.fa-phone:hover{
+    opacity: 0.7;
+    color:rgba(68, 188, 8, 0.995);
+}     
+.fa-envelope:hover{
+    opacity: 0.7;
+    color:rgba(221, 12, 12, 0.995);
+} 
+.fa-map-marker:hover{
+    opacity: 0.7;
+    color:rgb(42, 40, 40);
+} 
+    
+
+.Qrcode{
+    margin: 10px;
+
+}
+.copyright p{
+    margin-bottom: 5px;
+}
+i{
+    padding: 5px;
+}
+
+@media only screen and (max-width:600px){
+    .footer .container{
+        display: block !important;
+        
+    }
+    .container .col{
+        display: block;
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+    
+        
+    }
+    #aboutf{
+        height: 13vh;
+        font-size: 20px;
+    }
+    
+    }  
