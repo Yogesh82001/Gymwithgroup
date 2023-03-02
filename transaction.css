@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    height: 18vh;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px;
+    border-style: solid;
+}
+.row img{
+    height: 12vh;
+    width: 6vw;
+    margin: 14px 10px 17px 45px;
+    padding: 0;
+    border-color:black;
+    border-radius: 5px;
+}
+.row .message{
+    position: absolute;
+    top: 10px;
+    right: 16vw;
+    font-size: 15px;
+    height:10vh ;
+    width: 10vw;
+    text-align: center;
+}
+.row .productname{
+    position: absolute;
+    top: 17px;
+    left: 15vw;
+    color: black;
+    font-size: 15px;
+    height:10vh ;
+    width: 10vw;
+    
+
+}
+.arrowbutton button i img{
+    padding: 0;
+    margin: 0;
+    height:30px ;
+    width:30px ;
+    position: absolute;
+    top: 50px;
+    right: 1vw;
+
+}
+.info{
+    font-size: 12px;
+}
+.price{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+    bottom: 56%;
+    font-size: 20px;
+
+}
+@media only screen and (max-width:1043px){
+    .message .info{
+        height:7vh ;
+        width:14vw ;
+    }
+
+}
+@media only screen and (max-width:700px){
+    .row{
+        height: 20vh;
+    }
+    .message .info{
+        height:5vh ;
+        width: 20vw;
+        
+        
+    }
+    .message{
+        position:absolute;
+        right: 22vw;
+        height: 5vh;
+        width: 20vw;
+    }
+
+    }
+.img{
+    height:7vh ;
+    width: 2vw;
+    margin: 18px 11px 20px 5px;
+}
+.productname{
+    position: absolute;
+    top: 17px;
+    left: 28vw;
+    height:5vh ;
+    width: 20vw;
+    
+
+}
